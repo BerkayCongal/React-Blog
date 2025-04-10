@@ -1,0 +1,14 @@
+:root {
+   --bg-color :White;
+   --h2-color :#3B3C4A;
+   --h1-font: #181A2A;
+   --p-color : #97989F;
+   --box-p-color: #4B6BFB;
+   --box-w: 488px;
+   --box-h: 392px;
+   --box-pad: padding: 20px;
+   --gap: 10px;
+   --box-show : 0 4px 8px rgba(2, 2, 2, 0.336);
+}
+
+

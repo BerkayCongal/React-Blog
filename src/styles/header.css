@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-block: 32px;
+    background-color: var(--bg-color);
+    .logo {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: var(--gap) ;
+        
+    }
+    
+    a {
+        text-decoration: none;
+        color:var(--p-color) ;
+        transition: all 0.3s;
+        &:hover{
+            font-size: 18px;
+    
+        }
+        
+        
+    }
+    
+    button {
+        padding: 8px;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.082);
+        transition: all 0.3s;
+        &:hover {
+            background-color: gray;
+            color: white;
+        }
+    }
+}
