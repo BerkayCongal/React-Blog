@@ -95,3 +95,18 @@ footer {
     }
 
     }
+
+
+    
+  @media (max-width:320px) {
+        footer {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            p {
+                font-size: 14px;
+            }
+        }
+
+   
+  }

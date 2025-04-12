@@ -47,3 +47,15 @@
     }
     
 }
+
+
+@media (max-width:320px) {
+    
+   .blogCard {
+    
+    a{ img {width: 100%;}}
+
+   }
+
+   
+  }
